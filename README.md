@@ -5,18 +5,22 @@ Codigo en python que te dice si las proposiciones que ingresaste son equivalente
 
 proposicion1 = "p -> q"
 proposicion2 = "¬p | q"
+
 ##############################
 
 proposicion1 = "p <-> q"
 proposicion2 = "(p -> q) & (q -> p)"
+
 ##################################
 
 proposicion1 = "¬(p | q)"
 proposicion2 = "¬p & ¬q"
+
 ################################
 
 proposicion1 = "¬(p & q)"
 proposicion2 = "¬p | ¬q"
+
 ################################
 
 proposicion1 = "p | (q & r)"
@@ -27,18 +31,22 @@ proposicion2 = "(p | q) & (p | r)"
 
 proposicion1 = "p & (q | r)"
 proposicion2 = "(p & q) | (p & r)"
+
 ############################
 
 proposicion1 = "p & q"
 proposicion2 = "p | q"
+
 ##########################
 
 proposicion1 = "p -> q"
 proposicion2 = "q -> p"
+
 ############################
 
 proposicion1 = "p | ¬p"
 proposicion2 = "q & ¬q"
+
 ###########################
 
 proposicion1 = "p -> (q & r)"
